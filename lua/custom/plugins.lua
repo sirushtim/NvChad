@@ -14,9 +14,9 @@ local plugins = {
         cmd = "Copilot",
         event = "InsertEnter",
         config = function()
-          require("copilot").setup()
+          require("copilot").setup(overrides.copilot)
         end,
-      }
+      },
     },
   },
 
@@ -27,6 +27,8 @@ local plugins = {
         require("copilot_cmp").setup()
     end,
   },
+
+  { 'AndreM222/copilot-lualine' },
 
   {
     "neovim/nvim-lspconfig",
