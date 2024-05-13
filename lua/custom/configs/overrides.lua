@@ -30,7 +30,7 @@ M.mason = {
     -- rust
     "rust-analyzer",
 
-    -- go 
+    -- go
     "gopls"
   },
 }
