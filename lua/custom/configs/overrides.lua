@@ -25,7 +25,7 @@ M.mason = {
     "terraform-ls",
 
     -- python
-    "ruff-lsp",
+    "ruff",
 
     -- rust
     "rust-analyzer",
